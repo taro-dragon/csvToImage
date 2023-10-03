@@ -1,0 +1,21 @@
+{
+  "name": "csv-to-image-converter",
+  "version": "1.0.0",
+  "description": "A simple tool to convert CSV to Image using Node.js",
+  "main": "csvToImage.js",
+  "scripts": {
+    "start": "node csvToImage.js",
+    "convert": "node csvToImage.js"
+  },
+  "keywords": [
+    "csv",
+    "image",
+    "converter"
+  ],
+  "author": "taro-dragon",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parser": "^2.3.3",
+    "puppeteer": "^15.0.0"
+  }
+}
